@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   
+    background-size:80%;
+    background-position: left top;
+    background-position-x: 200em left;
+    font-family: 'Poppins';
+    background-image: url(../imagens/magem-principal.png);
+    background-attachment: scroll;
+    background-image: lineargradient(90deg, rgb(223, 126, 0),  rgba(223, 126, 0, 0.055));
+
+}
+.logo-txt-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.logo{
+    height: 8em;
+
+}
+
+
+.logo-txt{
+    color: rgb(255, 255, 255);
+    margin-top: 0.1em;
+    font-size: 3.5em;
+    /* background : -webkit-linear-gradient(white, #eeff00, rgb(255, 12, 12));
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;  */
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(720deg, rgb(0, 0, 0),  rgba(5, 5, 5, 0.753));
+    height: 8.4em;
+    box-shadow: 2em, 2em, black;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2em;
+    font-size: 1.5em;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+    
+}
+
+#peça-o-seu{
+   
+    background-color:  rgba(223, 126, 0, 0.815);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 7px;
+    padding: 0.6em ; 
+    margin-top: -0.5em;
+    transition: 0.5s;
+}
+
+ #peça-o-seu:hover{
+        background-color: white;
+        color:  rgb(223, 126, 0);
+        transition: 0.3s;
+    }
+
+ li a:hover{
+        font-size: 110%;
+        transition: 0.5s;
+    }
+
+#imagem-principal{
+     
+    width: 100%;
+}
+
+ #bloco-1{
+
+    }
+
+#bloco-1 button{
+    position: relative;
+    bottom: 30em;
+    left: 2em;
+    background-color: rgb(255, 145, 0);
+    padding: 1em 3em;
+    font-size: 1em;
+    border-radius: 9px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+    border: none;
+    text-decoration: none;
+}
+.blocos-secundarios{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90vw;
+    flex-wrap: wrap;
+    gap: 6em;
+}
+ main ul{
+    display: none;
+ }
+.box-1{
+    background-color: white;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    height: 430px;
+    width: 430px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(160, 160, 160);
+}
+
+.box-1 p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.box-1 button{
+    padding: 1em;
+    border-radius: 10px;
+    background-color: rgb(233, 133, 2);
+    margin-top: 5px;
+    border: none;
+}
+
+.box-1 button:hover{
+    background-color: rgb(128, 72, 0);
+    
+}
+
+.box-1 img{
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.3s;
+}
+
+.box-1 img:hover{
+    height: 120%;
+    box-shadow: 10px 10px 5px rgb(160, 160, 160);
+    transition: 0.3s;
+    
+}
+
+#redes{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#borda{
+    border: 5px solid rd;
+    height: 30vh;
+    background-image: url(../imagens/borda.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#borda h2{
+    text-align: center;
+    font-size: 2em;
+}
+#borda p{
+    text-align: center;
+    font-size: 1em;
+}
+
+#redes img{
+    height: 3em;
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+#Termos{
+ display: flex; 
+ gap: 2em;
+}
+
+footer button{
+    display: none;
+}
